@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Shrikhand&display=swap');
+* {
+    font-family: "Quicksand", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav {
+    background-color:#8dc8ff;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.logo {
+    order: 1;
+    width: 25%;
+    height: 25%;
+    margin-right: auto;
+}
+nav ul {
+    display: flex;
+    order: 2;
+}
+nav ul a {
+    color: black;
+    margin: 1rem;
+}
+.container {
+    display: flex;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.hero {
+    display: flex;
+    height: 600px;
+    background-color: white;
+}
+.hero img {
+    height: 100%;
+}
+.text {
+    width: 80%;
+}
+.text h2 {
+    text-shadow: 4px 4px #8dc8ff;
+    font-size: 3.3rem;
+    margin-bottom: 12px;
+}
+
+.about {
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+}
+.about img {
+    height: 100%;
+}
+.about-text {
+    width: 80%;
+}
+.about h2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.about-text p {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.topic-section {
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+}
+.topic-section h2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.topic-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic-item {
+    height: 150px;
+    width: 525px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #8dc8ff;
+}
+.topic-item img {
+    float: left;
+    height: 100%;
+    margin-right: 15px;
+}
+.topic-item h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.exercise-section {
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+}
+.exercise-section h2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.exercise-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exercise-item {
+    height: 150px;
+    width: 525px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #8dc8ff;
+}
+.exercise-item img {
+    float: left;
+    height: 100%;
+    margin-right: 15px;
+}
+.exercise-item h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.foot ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.foot p {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+}
