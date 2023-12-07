@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 nav {
     background-color:#8dc8ff;
 }
@@ -28,9 +29,31 @@ nav ul {
     display: flex;
     order: 2;
 }
+.login {
+    width: 90px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+}
+.login:hover {
+    background: white;
+    color: #8dc8ff;
+}
 nav ul a {
     color: black;
     margin: 1rem;
+    font-size: 1.1em;
+}
+nav ul li {
+    margin-top: 10px;
 }
 .container {
     display: flex;
@@ -43,6 +66,7 @@ nav ul a {
 }
 .hero {
     display: flex;
+    align-content: center;
     height: 600px;
     background-color: white;
 }
@@ -57,7 +81,6 @@ nav ul a {
     font-size: 3.3rem;
     margin-bottom: 12px;
 }
-
 .about {
     padding: 0 50px;
     justify-content: center;
